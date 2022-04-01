@@ -102,7 +102,7 @@ void search(){
 		printf("Enter a to enter file again or double y key to open menu section:");
 		if(getch()=='a'){
 			system("cls");
-			searchfun();
+			search();
 		}
 
 	}
@@ -327,22 +327,22 @@ void menu(){
 	printf("\xB3\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB 6.Exit");
 	switch(getch()){
 		case '1':
-			namefun();
+			name();
 			break;
 		case '2':
-			searchfun();
+			search();
 			break;
 		case '3':
-			listfun();
+			list();
 			break;
 		case '4':
-			modifyfun();
+			modify();
 			break;
 		case '5':
-			deletefun();
+			delete();
 			break;
 		case '6':
-			exitfun();
+			exit();
 			break;
 		default:
 			system("cls");
