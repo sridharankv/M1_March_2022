@@ -14,7 +14,7 @@
  * @brief prints the input name
  * @return Text file generated with user input name
  */
-void name()
+void namefun()
 {
     return("project.txt","ab+")
 }
@@ -23,7 +23,7 @@ void name()
  * @brief the name of the person you want to see the detail
  * @return text file of the searched name
  */
-void search()
+void searchfun()
 {
     return ("project.txt","r");
 }
@@ -33,7 +33,7 @@ void search()
  * @return text file of data stored
 */
 
-void list()
+void listfun()
 {
     return("project.txt","r");
 }
@@ -42,7 +42,7 @@ void list()
  * @brief modify the input data
  * @return the modified valuew
 */
-void modify()
+void modifyfun()
 {
      return ("project.txt","r");
 }
@@ -50,7 +50,7 @@ void modify()
 /**
  * @brief delete the phonebook data
  */
-    void delete()
+    void deletefun()
     {
 
     }
@@ -59,7 +59,7 @@ void modify()
  * @brief retruns to main page
  
  */
-    void exit()
+    void exitfun()
     {
 
     }

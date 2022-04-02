@@ -13,31 +13,31 @@
  * @brief prints the input name
  * @return Text file generated with user input name
  */
-void name();
+void namefun();
 /**
  * @brief the name of the person you want to see the detail
  * @return text file of the searched name
  */
-void search();
+void searchfun();
 /**
  * @brief lists the phonebook data
  * @return text file of data stored
 */
 
-void list();
+void listfun();
 /**
  * @brief modify the input data
  * @return the modified valuew
 */
-void modify();
+void modifyfun();
 /**
  * @brief delete the phonebook data
  */
-    void delete();
+    void deletefun();
 /** @brief retruns to main page
  
  */
-    void exit();
+    void exitfun();
     /**
  * @brief verifying password from the user
  * 

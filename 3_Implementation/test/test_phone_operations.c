@@ -14,37 +14,37 @@
  * @brief Testing function for name
  * 
  */
-void test_name();
+void test_namefun();
 
 /**
  * @brief Testing function for search
  * 
  */
-void test_search();
+void test_searchfun();
 
 /**
  * @brief Testing function for list
  * 
  */
-void test_list();
+void test_listfun();
 
 /**
  * @brief Testing function for modify
  * 
  */
-void test_modify();
+void test_modifyfun();
 
 /**
  * @brief Testing function for delete
  * 
  */
-void test_delete();
+void test_deletefun();
 
 /**
  * @brief Testing function for exit
  * 
  */
-void test_exit();
+void test_exitfun();
 
 /**
  * @brief Testing function for password

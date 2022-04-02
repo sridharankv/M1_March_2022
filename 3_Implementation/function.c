@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-void name(){
+void namefun(){
 	system("cls");
 	gotoxy(31,4);
 	printf("\xB3\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB NEW SECTION \xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xB3");
@@ -49,7 +49,7 @@ void name(){
 	}
 }
 
-void search(){
+void searchfun(){
 	FILE *fptr;
 	int flag=0;
 	int res;
@@ -102,7 +102,7 @@ void search(){
 		printf("Enter a to enter file again or double y key to open menu section:");
 		if(getch()=='a'){
 			system("cls");
-			search();
+			searchfun();
 		}
 
 	}
@@ -110,7 +110,7 @@ void search(){
 
 	fclose(fptr);
 }
-void list(){
+void listfun(){
 		FILE *fptr;
 	char name[100],address[100],gmail[100],gender[8];
 	double phone;
@@ -142,7 +142,7 @@ void list(){
 
 
 
-void modify(){
+void modifyfun(){
 	FILE *fptr,*fptr1;
 	char name[100],address[100],gmail[100],gmail1[100],address1[100],name1[100],gender[8],gender1[8];
 	int res,f=0;
@@ -203,7 +203,7 @@ void modify(){
 		menu();
 	}
 }
-void delete(){
+void deletefun(){
 	FILE *fptr,*fptr1;
 	char name[100],address[100],gmail[100],gmail1[100],address1[100],name1[100],gender[8];
 	int res,f=0;
@@ -250,7 +250,7 @@ void delete(){
 		menu();
 	};
 }
-void exit(){
+void exitfun(){
 	system("cls");
 	gotoxy(31,4);
 	printf("\xDB\xDB\xDB\xDB PROJECT DONE BY \xDB\xDB\xDB\xDB");
@@ -327,22 +327,22 @@ void menu(){
 	printf("\xB3\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB 6.Exit");
 	switch(getch()){
 		case '1':
-			name();
+			namefun();
 			break;
 		case '2':
-			search();
+			searchfun();
 			break;
 		case '3':
-			list();
+			listfun();
 			break;
 		case '4':
-			modify();
+			modifyfun();
 			break;
 		case '5':
-			delete();
+			deletefun();
 			break;
 		case '6':
-			exit();
+			exitfun();
 			break;
 		default:
 			system("cls");
@@ -350,7 +350,6 @@ void menu(){
 			getch();
 }
 }
-
 
 /*
 int main()
