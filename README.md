@@ -2,6 +2,9 @@
 
 ## BADGES
 
+### Build on Linux [![Build CI - Linux](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/c-cpp.yml)
+
+
 ## FOLDER STRUCTURE
 | Folder | Description | 
 | :----: | :---------: |
