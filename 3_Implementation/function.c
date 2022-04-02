@@ -327,19 +327,19 @@ void menu(){
 	printf("\xB3\xDB\xDB\xDB\xDB\xDB\xDB\xDB\xDB 6.Exit");
 	switch(getch()){
 		case '1':
-			name();
+			namefun();
 			break;
 		case '2':
-			search();
+			searchfun();
 			break;
 		case '3':
-			list();
+			listfun();
 			break;
 		case '4':
-			modify();
+			modifyfun();
 			break;
 		case '5':
-			delete();
+			deletefun();
 			break;
 		case '6':
 			exit();
