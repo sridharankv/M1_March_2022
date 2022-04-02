@@ -4,7 +4,7 @@
 
 ### Build on Linux [![Build CI - Linux](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/c-cpp.yml)
 ### CPP_Check Analysis [![Cppcheck Analysis](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/cpp_check_analysis.yml/badge.svg)](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/cpp_check_analysis.yml)
-
+### Unit Testing[![Unit Testing - Unity](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/unit_testing.yml/badge.svg)](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/unit_testing.yml)
 ## FOLDER STRUCTURE
 | Folder | Description | 
 | :----: | :---------: |
