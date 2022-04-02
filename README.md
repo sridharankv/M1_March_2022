@@ -3,7 +3,7 @@
 ## BADGES
 
 ### Build on Linux [![Build CI - Linux](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/c-cpp.yml)
-
+### CPP_Check Analysis [![Cppcheck Analysis](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/cpp_check_analysis.yml/badge.svg)](https://github.com/sridharankv/M1_Phone_Book/actions/workflows/cpp_check_analysis.yml)
 
 ## FOLDER STRUCTURE
 | Folder | Description | 
