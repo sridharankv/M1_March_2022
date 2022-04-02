@@ -70,12 +70,12 @@ int main()
     UNITY_BEGIN();
 
     /* Run Test functions */
-    RUN_TEST(test_name);
-    RUN_TEST(test_search);
-    RUN_TEST(test_list);
-    RUN_TEST(test_modify);
-    RUN_TEST(test_delete);
-    RUN_TEST(test_exit);
+    RUN_TEST(test_namefun);
+    RUN_TEST(test_searchfun);
+    RUN_TEST(test_listfun);
+    RUN_TEST(test_modifyfun);
+    RUN_TEST(test_deletefun);
+    RUN_TEST(test_exitfun);
     RUN_TEST(test_password);
     RUN_TEST(test_menu);
 
